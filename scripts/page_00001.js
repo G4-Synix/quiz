@@ -37,7 +37,7 @@ function InitQuestion1()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 0;
-    var weight = DecodeNumber('ZqZVxc6AOno=', 1001, 0, 99999);
+    var weight = DecodeNumber('fDHp9xL7rAg=', 135, 0, 99999);
     var numOfAnswers = 2;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion1()
     question.shortTextQuestion = "linux fa schifo?";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('S84rsOWo1xM=', 1003, -1, 1);
+    var valuation1 = DecodeNumber('fDHp9xL7rAg=', 137, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion1()
     answer1.shortTextAnswer = "si";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('oeBa18cJ1h4=', 274, -1, 1);
+    var valuation2 = DecodeNumber('8+ak21PPWvk=', 273, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
